@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+header {
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  margin: 1rem 0 1.5rem 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  background-image: url(https://gurunavi.com/en/japanfoodie/article/bunny_cafe/img/22_Bunnycafe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  width: 100%;
+  margin: 3rem auto 3rem auto;
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+#survey-form {
+  width: 60%;
+  background: rgba(255, 125, 95, 0.7);
+  padding: 2rem 4rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+p, label{
+  text-style: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  display: block;
+  margin: 0.25rem 0;
+}
+
+div {
+  margin: 0 0 1.25rem 0;
+}
+
+.textbox, #dropdown, button {
+  display: block;
+  width: 100%;
+  margin: 0 0 1.25rem 0;
+  padding: 0.25rem;
+}
+
+button {
+  background: rgba(20, 100, 160, 0.9);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.comment {
+  width: 100%;
+  padding: 0 0 4rem 0;
+}
